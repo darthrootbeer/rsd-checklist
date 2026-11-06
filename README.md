@@ -4,6 +4,8 @@ A phone-first wish list and in-store checklist for the **RSD Black Friday 2026**
 
 **Live:** https://darthrootbeer.github.io/rsd-checklist/
 
+> **How it was made:** built by Claude Code (an AI coding tool) under my direction. I set what it should do, shaped the design, and tested it on my phone. A small example of directing AI to ship a real, working tool.
+
 ## How it works
 
 1. **All records** — browse all 188 releases. Search by artist, title or label. Filter by release type, format and genre. Sort A–Z, rarest first, or by label.
@@ -34,6 +36,6 @@ Every tap saves to the phone right away (browser `localStorage`). Nothing is sen
 4. Run `python3 scripts/build.py`. Update `event`, `name` and `date` in the script. The storage key comes from `event`, so a new event starts with a fresh list.
 5. Bump the cache names in `sw.js` so phones pick up the new data.
 
-Replaces the older April 2026 app at [darthrootbeer/rsd2026](https://github.com/darthrootbeer/rsd2026).
+Replaces an older, private app built for RSD April 2026.
 
 Data © Record Store Day. Cover art is loaded from the RSD image server.
